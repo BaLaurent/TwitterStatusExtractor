@@ -9,7 +9,9 @@ then at the start of the file using the script use
 
 # Functions
 
-getStatusIds(user,nbStatus=3,headless=True) where user is the name of the twitter account without the @ :
+where user is the name of the twitter account without the @
+
+getStatusIds(user,nbStatus=3,headless=True) :
   retrieve the last nbStatus for the given user
   
 getStatusMultipleUsers(listUsers,nbStatus=3,headless=True):
